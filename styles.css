@@ -51,11 +51,12 @@ section {
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  color: black;
 }
 
 #hero h1 {
   font-size: 4rem;
-  color: white;
+  color: black;
 }
 
 #hero p {
@@ -129,6 +130,7 @@ section {
   background-color: #f2ff02;
   padding: 50px;
   text-align: center;
+  color: black;
 }
 
 /*
