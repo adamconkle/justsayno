@@ -85,6 +85,10 @@ section {
   background-color: black;
 }
 
+#images > img {
+  width: 25%;
+}
+
 @media (max-width: 600px) {
   #images {
     flex-direction: column;
