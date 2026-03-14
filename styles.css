@@ -73,6 +73,24 @@ section {
   background-color: #111222;
 }
 
+#images {
+  width: 100%;
+  max-width: 400px; /* adjust as needed */
+  height: auto;     /* keeps proper portrait ratio */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;   /* centers the video */
+  padding: 20px 0;  /* optional spacing */
+  background-color: black;
+}
+
+@media (max-width: 600px) {
+  #images {
+    flex-direction: column;
+  }
+}
+
 
 #video {
   background-color: #f2ff02;
