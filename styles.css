@@ -45,7 +45,7 @@ section {
 }
 
 #hero {
-  background-color: #00a170;
+  background-color: #f2ff02;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -75,7 +75,7 @@ section {
 
 
 #video {
-  background-color: #00a170;
+  background-color: #f2ff02;
   /*height: 5em;
   display:flex;
   flex-direction: column;
@@ -108,7 +108,7 @@ section {
 #featureRequest {
   display: flex;
   flex-direction: row;
-  background-color: #00a170;
+  background-color: #f2ff02;
   padding: 50px;
   text-align: center;
 }
