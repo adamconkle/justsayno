@@ -76,7 +76,6 @@ section {
 
 #images {
   width: 100%;
-  max-width: 400px; /* adjust as needed */
   height: auto;     /* keeps proper portrait ratio */
   display: flex;
   flex-direction: row;
