@@ -61,7 +61,7 @@ section {
 
 #hero p {
   font-size: 2rem;
-  color: white;
+  color: black;
 }
 
 #store {
@@ -79,11 +79,16 @@ section {
   height: auto;     /* keeps proper portrait ratio */
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;   /* centers the video */
   padding: 20px 0;  /* optional spacing */
   background-color: black;
   gap: 10px;
+}
+
+#images > img {
+  width: 20%;
 }
 
 
