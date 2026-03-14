@@ -95,6 +95,7 @@ section {
 @media (max-width: 600px) {
   #images {
     flex-direction: column;
+    width: 100%;
   }
 }
 
