@@ -76,29 +76,38 @@ section {
 
 #images {
   width: 100%;
-  height: auto;     /* keeps proper portrait ratio */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 0 auto;   /* centers the video */
+  margin: 0 auto;
   background-color: black;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.images-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+  align-items: start;
 }
 
-#images > img {
-  width: 20%;
-}
-
-
-@media (max-width: 600px) {
-  #images {
-    flex-direction: column;
-  }
-  #images > img {
+.images-grid img {
   width: 100%;
-  margin: 10px;
+  height: auto;
+  display: block;
 }
+
+/* tablet */
+@media (max-width: 900px) {
+  .images-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* phone */
+@media (max-width: 600px) {
+  .images-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 
