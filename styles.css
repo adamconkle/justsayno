@@ -83,6 +83,7 @@ section {
   margin: 0 auto;   /* centers the video */
   padding: 20px 0;  /* optional spacing */
   background-color: black;
+  gap: 10px;
 }
 
 
